@@ -93,4 +93,3 @@ This table provides an overview of the available API endpoints for managing item
 * Replace `:id` in the endpoints with the actual item identifier for specific operations (GET Single Item by id, Update Item, Delete Item).
 * Replace `name` in the `get?name` endpoints with the actual name for filtering items.
 * Replace `category`, `subcategory` in the `get-under-category?name=category`, `get-under-subcategory?name=subcategory` endpoints with the actual category/subcategory name, for filtering items.
-

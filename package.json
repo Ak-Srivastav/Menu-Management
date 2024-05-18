@@ -1,0 +1,20 @@
+{
+  "name": "menumanagement",
+  "version": "1.0.0",
+  "description": "Created by Amitkumar Srivastav",
+  "type": "commonjs",
+  "scripts": {
+    "start": "supervisor api/server.js"
+  },
+  "author": "Amitkumar Srivastav",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0",
+    "supervisor": "^0.12.0"
+  }
+}
