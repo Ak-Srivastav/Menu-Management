@@ -31,32 +31,38 @@
 
 ## Directory Structure
 ```
-├───📁 config/
-│   └───📄 connectDB.js
-├───📁 controllers/
-│   ├───📁 Category/
-│   │   └───📄 categoryController.js
-│   ├───📁 error/
-│   │   └───📄 ApiError.js
-│   ├───📁 Item/
-│   │   └───📄 ItemController.js
-│   ├───📁 response/
-│   │   └───📄 ApiResponse.js
-│   └───📁 SubCategory/
-│       └───📄 subCategoryController.js
-├───📁 middlewares/
-│   ├───📄 ApiErrorMiddleware.js
-│   ├───📄 Async.js
-│   └───📄 HandleNotFoundMiddleware.js
-├───📁 models/
-│   ├───📄 Category.js
-│   ├───📄 Item.js
-│   └───📄 SubCategory.js
-├───📁 routes/
-│   ├───📄 categoryRoute.js
-│   ├───📄 itemRoute.js
-│   └───📄 subcategoryRoute.js
-└───📄 server.js
+├───📁 api/
+│   ├───📁 config/
+│   │   └───📄 connectDB.js
+│   ├───📁 controllers/
+│   │   ├───📁 Category/
+│   │   │   └───📄 categoryController.js
+│   │   ├───📁 error/
+│   │   │   └───📄 ApiError.js
+│   │   ├───📁 Item/
+│   │   │   └───📄 ItemController.js
+│   │   ├───📁 response/
+│   │   │   └───📄 ApiResponse.js
+│   │   └───📁 SubCategory/
+│   │       └───📄 subCategoryController.js
+│   ├───📁 middlewares/
+│   │   ├───📄 ApiErrorMiddleware.js
+│   │   ├───📄 Async.js
+│   │   └───📄 HandleNotFoundMiddleware.js
+│   ├───📁 models/
+│   │   ├───📄 Category.js
+│   │   ├───📄 Item.js
+│   │   └───📄 SubCategory.js
+│   ├───📁 routes/
+│   │   ├───📄 categoryRoute.js
+│   │   ├───📄 itemRoute.js
+│   │   └───📄 subcategoryRoute.js
+│   └───📄 server.js
+├───📄 .gitignore
+├───📄 package-lock.json
+├───📄 package.json
+└───📄 README.md
+
 ```
 ## API Documentation
 
