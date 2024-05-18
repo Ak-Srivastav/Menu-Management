@@ -41,7 +41,7 @@ app.use("/api/item", itemRoute);
 app.use("/", (req, res) => {
   res.json(ApiResponse("Welcome to Menu - Management"));
 });
-app.use(HandleNotFound); // endpoint not found response
+app.use(HandleNotFound); // Endpoint not found response
 app.use(HandleApiError); // Custom API Error handler
 
 /*==============================
