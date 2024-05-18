@@ -37,10 +37,10 @@ This table provides an overview of the available API endpoints for managing cate
 | Category | Method | Endpoint | Purpose |
 |---|---|---|---|
 | I. Create Category | POST | /api/category/create | To create a new category with provided details. |
-| II. Get Single Category | GET | /api/category/get/id | To retrieve a specific category using its unique identifier (id). |
+| II. Get Single Category | GET | /api/category/get/:id | To retrieve a specific category using its unique identifier (id). |
 | III. Get Category By Name | GET | /api/category/get?name=categorynamegoeshere | To search for categories based on a provided name using Regular Expression Matching (partial matches possible). |
-| IV. Update Category | PUT | /api/category/update/id | To modify details of an existing category identified by its id. |
-| V. Delete Category | DELETE | /api/category/delete/id | To remove a specific category from the system (requires valid id). |
+| IV. Update Category | PUT | /api/category/update/:id | To modify details of an existing category identified by its id. |
+| V. Delete Category | DELETE | /api/category/delete/:id | To remove a specific category from the system (requires valid id). |
 
 **Note:**
 
@@ -62,11 +62,11 @@ This table provides an overview of the available API endpoints for managing subc
 | SubCategory | Method | Endpoint | Purpose |
 |---|---|---|---|
 | I. Create Sub-Category | POST | /api/sub-category/create | To create a new sub-category. |
-| II. Get Single Sub-Category by id | GET | /api/sub-category/get/id | To retrieve a specific sub-category using its unique identifier (id). |
+| II. Get Single Sub-Category by id | GET | /api/sub-category/get/:id | To retrieve a specific sub-category using its unique identifier (id). |
 | III. Get SubCategory by Name | GET | /api/sub-category/get?name=requiredname | To search for subcategories based on a provided name using Regular Expression Matching (partial matches possible). |
 | IV. Get SubCategory Under Category | GET | /api/sub-category/getunder?name=nameofcategory | To fetch a list of subcategories belonging to a specific category (exact name match). |
-| V. Update SubCategory | PUT | /api/sub-category/update/id | To modify details of an existing sub-category identified by its id. |
-| VI. Delete SubCategory | DELETE | /api/sub-category/delete/id | To remove a specific sub-category from the system (requires valid id). |
+| V. Update SubCategory | PUT | /api/sub-category/update/:id | To modify details of an existing sub-category identified by its id. |
+| VI. Delete SubCategory | DELETE | /api/sub-category/delete/:id | To remove a specific sub-category from the system (requires valid id). |
 
 **Note:**
 
