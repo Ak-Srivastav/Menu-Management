@@ -11,10 +11,10 @@
 - Clone this repository or fork it.
   - To clone this repository type `git clone https://github.com/Ak-Srivastav/Menu-Management.git` on your command line
   - To fork this repository, click fork button of this repository then type `git clone https://github.com/<your username>/Menu-Management.git`
-- Inside your project folder, create a new file named `.env` which stores informations about server side such as `MONGO_URI`
+- Inside your Menu-Management folder, create a new file named `.env` which stores informations about server side such as `MONGO_URI`
   - or 
 - Rename .envexample to .env after setting.
-- store your database URI inside `MONGO_URI` variable
+- Store your database URI inside `MONGO_URI` variable
 - example:
   ```
   MONGO_URI = mongodb+srv://<username>:<password>@<collection_name>.<providedbymongodb>.mongodb.net/ (MongoDB Atlas)
@@ -24,10 +24,10 @@
   ```
   
 - Install all dependencies
-  - Server side: on the `project` directory type `npm install`
+  - Server side: on the `Menu-Management` directory type `npm install`
 
 - Run it on node js:
-  - Server side: on the `project` directory type `npm start`
+  - Server side: on the `Menu-Management` directory type `npm start`
 
 ## Directory Structure
 ```
