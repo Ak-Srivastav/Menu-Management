@@ -47,8 +47,12 @@ This table provides an overview of the available API endpoints for managing cate
 * Replace `id` in the endpoints with the actual category identifier for specific operations (GET Single Category, Update Category, Delete Category).
 * Replace `name` in the `get?name` endpoints with the actual name for filtering Categories.
 
-**Examples:**
-<img src="https://github.com/Ak-Srivastav/Menu-Management/assets/106487556/5796f667-26a8-4e9b-b00a-ea00d5e29d26" width="50%" height="50%">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="https://github.com/Ak-Srivastav/Menu-Management/assets/106487556/5796f667-26a8-4e9b-b00a-ea00d5e29d26" width="49%" height="60%">
+  <img src="https://github.com/Ak-Srivastav/Menu-Management/assets/106487556/5fda9ceb-5760-4ec5-b813-d40ac2ea3f68" width="49%" height="60%">
+  <img src="https://github.com/Ak-Srivastav/Menu-Management/assets/106487556/fa98a1cf-9fa5-4575-af47-e5ba36e2a6d0" width="49%" height="60%">
+  <img src="https://github.com/Ak-Srivastav/Menu-Management/assets/106487556/07285cc0-92a6-42f7-8b7f-771cd3e51f50" width="49%" height="60%">
+</div>
 
 
 ## SubCategory API Documentation
