@@ -15,6 +15,7 @@ const itemRoute = require("./routes/itemRoute");
 const connectDB = require("./config/connectDB");
 const HandleNotFound = require("./middlewares/HandleNotFoundMiddleware");
 const HandleApiError = require("./middlewares/ApiErrorMiddleware");
+const ApiResponse = require("./controllers/response/ApiResponse");
 
 /*==============================
 include environment variables
@@ -37,8 +38,8 @@ routes, not found and custom api error handler
 app.use("/api/category", categoryRoute); // routes and prefix
 app.use("/api/sub-category", subcategoryRoute);
 app.use("/api/item", itemRoute);
-app.use("/api/", (req, res) => {
-  res.json(ApiResponse("Hello World"));
+app.use("/", (req, res) => {
+  res.json(ApiResponse("Welcome to Menu - Management"));
 });
 app.use(HandleNotFound); // endpoint not found response
 app.use(HandleApiError); // Custom API Error handler
