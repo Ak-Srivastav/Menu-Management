@@ -29,7 +29,35 @@
 - Run it on node js:
   - Server side: on the `project` directory type `npm start`
 
-
+## Directory Structure
+```
+|-- config
+|   |-- connectDB.js
+|-- controllers
+|   |-- Category
+|   |   |-- categoryController.js
+|   |-- Item
+|   |   |-- ItemController.js
+|   |-- SubCategory
+|   |   |-- subCategoryController.js
+|   |-- error
+|   |   |-- ApiError.js
+|   |-- response
+|       |-- ApiResponse.js
+|-- middlewares
+|   |-- ApiErrorMiddleware.js
+|   |-- Async.js
+|   |-- HandleNotFoundMiddleware.js
+|-- models
+|   |-- Category.js
+|   |-- Item.js
+|   |-- SubCategory.js
+|-- routes
+|   |-- categoryRoute.js
+|   |-- itemRoute.js
+|   |-- subcategoryRoute.js
+|-- server.js
+```
 ## API Documentation
 
 This table provides an overview of the available API endpoints for managing categories.
@@ -53,7 +81,6 @@ This table provides an overview of the available API endpoints for managing cate
   <img src="https://github.com/Ak-Srivastav/Menu-Management/assets/106487556/fa98a1cf-9fa5-4575-af47-e5ba36e2a6d0" width="49%" height="60%">
   <img src="https://github.com/Ak-Srivastav/Menu-Management/assets/106487556/07285cc0-92a6-42f7-8b7f-771cd3e51f50" width="49%" height="60%">
 </div>
-
 
 ## SubCategory API Documentation
 
