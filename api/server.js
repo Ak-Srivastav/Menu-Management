@@ -38,7 +38,7 @@ routes, not found and custom api error handler
 app.use("/api/category", categoryRoute); // routes and prefix
 app.use("/api/sub-category", subcategoryRoute);
 app.use("/api/item", itemRoute);
-app.use("/", (req, res) => {
+app.use("/api/test", (req, res) => {
   res.json(ApiResponse("Welcome to Menu - Management"));
 });
 app.use(HandleNotFound); // Endpoint not found response
