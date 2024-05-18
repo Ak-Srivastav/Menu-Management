@@ -72,7 +72,7 @@ This table provides an overview of the available API endpoints for managing cate
 
 **Note:**
 
-* Replace `id` in the endpoints with the actual category identifier for specific operations (GET Single Category, Update Category, Delete Category).
+* Replace `:id` in the endpoints with the actual category identifier for specific operations (GET Single Category, Update Category, Delete Category).
 * Replace `name` in the `get?name` endpoints with the actual name for filtering Categories.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
@@ -97,7 +97,7 @@ This table provides an overview of the available API endpoints for managing subc
 
 **Note:**
 
-* Replace `id` in the endpoints with the actual sub-category identifier for specific operations (GET Single Sub-Category, Update Sub-Category, Delete SubCategory).
+* Replace `:id` in the endpoints with the actual sub-category identifier for specific operations (GET Single Sub-Category, Update Sub-Category, Delete SubCategory).
 * Replace `nameofcategory` in the `getunder` endpoint with the actual category name for filtering subcategories.
 
 
