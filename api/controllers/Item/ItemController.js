@@ -2,7 +2,8 @@ const Async = require("../../middlewares/Async");
 const ApiResponse = require("../response/ApiResponse");
 const ApiError = require("../error/ApiError");
 const Item = require("../../models/Item");
-
+const Category = require("../../models/Category");
+const SubCategory = require("../../models/SubCategory");
 // Create Item
 const createItem = Async(async (req, res) => {
   req.body.name = req.body.name.toLowerCase();
