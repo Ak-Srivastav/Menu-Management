@@ -20,7 +20,7 @@ const ApiResponse = require("./controllers/response/ApiResponse");
 /*==============================
 include environment variables
 ==============================*/
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.NODE_DOCKER_PORT || 8080;
 
 /*==============================
 server application configurations
