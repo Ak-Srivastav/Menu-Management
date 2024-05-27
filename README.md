@@ -22,12 +22,17 @@
   MONGO_URI = mongodb://127.0.0.1:27017/menu-management (MongoDB Compass)
   PORT = 3000
   ```
-  
+#Method 1  
 - Install all dependencies
   - Server side: on the `Menu-Management` directory type `npm install`
 
 - Run it on node js:
   - Server side: on the `Menu-Management` directory type `npm start`
+
+#Method 2
+- Run using docker
+`docker-compose up`
+- It'll run on PORT `6868` on your Local-System 
 
 ## Directory Structure
 ```
