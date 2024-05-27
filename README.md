@@ -15,6 +15,7 @@
   - or 
 - Rename .envexample to .env after setting.
 - Store your database URI inside `MONGO_URI` variable
+- `Delete MONGO_URI from .env, if running using Docker`
 - example:
   ```
   MONGO_URI = mongodb+srv://<username>:<password>@<collection_name>.<providedbymongodb>.mongodb.net/ (MongoDB Atlas)
